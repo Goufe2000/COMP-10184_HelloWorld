@@ -6,7 +6,7 @@ void setup() {
   Serial.begin(115200);
   Serial.println("\n\nJohannes Berbee");
   Serial.println("\n\nStudent ID: 000788567");
-
+  Serial.println("\n\nI Johannes Berbee verifiy this is all my work");
   Serial.println("Chip ID:" + ESP.getChipId());
   Serial.println("\nFlash Chip ID" + ESP.getFlashChipId());
 
